@@ -1,0 +1,185 @@
+/***********************************************************************************/
+/* Stylish (2.0.7) CSS-script for DVDPlaza's forum - a smaller font & avatars etc. */
+/*                                                                                 */
+/* Version 0.1                                                                     */
+/* --                                                                              */
+/* + ToDo: Avatars on the forum's main                                             */
+/***********************************************************************************/
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("dvdplaza.fi") {
+    
+    .text {
+       font-family: Helvetica !important;
+       font-size: 13px;
+    }
+    
+    .header {
+       font-family: Helvetica !important;
+       font-size: 13px;
+    }
+    
+    .nodeList {
+       font-family: Helvetica !important;
+       font-size: 13px;
+    }
+    
+    .title {
+       font-family: Helvetica !important;
+       font-size: 13px;
+    }
+    
+    .messageUserBlock a.username {
+       font-size: 14px;
+       line-height: 18px;
+    }
+    
+    .messageUserBlock .extraUserInfo {
+       padding: 0px 10px;
+       padding-top: 0px;
+       padding-right: 10px;
+       padding-bottom: 0px;
+       padding-left: 10px;
+       font-size: 11px;
+    }
+    
+    .messageList .message {
+       background-color: #E6EDF5;
+    }
+    
+    .samCodeUnit {
+       margin: -10px 0px;
+    }
+    .PreviewTooltip {
+       font-family: verdana !important;
+       margin-right: 26px;
+       line-height: 1.28em;
+       font-size: 12px;
+       font-weight: 0;
+    }
+
+    h3.nodeTitle {
+       font-family: Helvetica !important;
+       margin-right: 26px;
+       line-height: 1.28em;
+       font-size: 13px;
+       font-weight: 700;
+    }
+
+    .messageText {
+       font-size: 13px;
+       font-family: Helvetica !important;
+       line-height: 1.5;
+    }
+    
+    .messageUserBlock div.avatarHolder .avatar {
+       display: block;
+       font-size: 0px;
+       line-height: 2px;
+       height: 0px;
+    }
+
+    /* Avatars in the message threads */
+    .discussionListItem .posterAvatar .avatar img {
+       width: 34px;
+       height: 34px;
+       display: block;
+       position: static;
+    }
+    
+    /* Avatar in the message */
+    .avatar img, .avatar .img, .avatarCropper {
+       background-color: #FCFCFF;
+       padding: 0px;
+       border: 1px solid #DEDEDE;
+       border-radius: 0px;
+       width: 35px;
+       height: 35px;
+       position: relative;
+       left: 50px;
+       top: 15px;    
+    }
+    
+    .messageUserBlock div.avatarHolder .avatar img {
+       position: relative;
+       width: 35px;
+       height: 35px;
+
+       left: 50px;
+       top: 15px;    
+    }
+    
+    .nodeList .categoryStrip .nodeTitle a {
+       font-size: 12px;
+       text-decoration: none;
+       padding: 5px 10px;
+       border-top: 0px solid #CCC;
+       border-bottom: 0px solid #CCC;
+       color: #E2E2E2;
+       background-color: #46596F;
+       margin: 0px;
+       border-width: 0px;
+       border-radius: 0px;
+       min-height: 6px;
+       position: relative;
+       height: 29px;    
+    }
+   
+    .node .nodeText .nodeTitle {
+       font-size: 12px;
+       padding-left: 2px;
+    }    
+    
+    .nodeList .categoryStrip {
+       font-size: 13px;
+       font-family: Helvetica !important;
+       color: #FFF;
+       background-color: #5A7F97;
+       border-radius: 0px;
+       line-height: 29px;
+       padding-top: 0px;
+       padding-right: 0px;
+       padding-bottom: 0px;
+       padding-left: 0px;
+
+       border-top: 0px solid #CCC;
+       border-top-width: 0px;
+       border-top-style: solid;
+       border-top-color: #CCC;
+       border-bottom: 0px solid #CCC;
+       border-bottom-width: 0px;
+       border-bottom-style: solid;
+       border-bottom-color: #CCC;
+    }
+ 
+    .mainContent {
+       margin-right: 262px;
+       margin-left: 6px;
+    }
+    
+    .nodeList .categoryStrip {
+       font-size: 13px;
+       font-family: Helvetica !important;
+       color: #FFF;
+    }
+    
+    .nodeList .categoryStrip .nodeTitle {
+       font-size: 15px;
+       color: #FFF;
+       padding-left: 4px;
+    }
+    
+    .discussionListItem {
+       background-color: #FCFCFF;
+       border-bottom: 1px solid #CCC;
+       border-bottom-width: 1px;
+       border-bottom-style: solid;
+       border-bottom-color: #CCC;
+       padding: 0px 0px;
+       padding-top: 0px;
+       padding-right: 0px;
+       padding-bottom: 0px;
+       padding-left: 0px;
+    }
+    
+}
