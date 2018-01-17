@@ -1,0 +1,85 @@
+/***********************************************************************************/
+/* Ampparit.com - 16.1.2018 Stylize CSS for the "new" ampparit.com.                */
+/*                                                                                 */
+/* Note: this script requires Greasemonkey (ampparit.com.user.js)                  */
+/*                                                                                 */
+/* Version 0.1                                                                     */
+/* --                                                                              */
+/* + ToDo:                                                                         */
+/***********************************************************************************/
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("www.ampparit.com") {
+
+  .th-classic .items-list-header {
+    background-color: #FFFFFF;
+    border-bottom: none;
+  }
+  
+  /* padding for links - same as old */
+  .th-classic .item .item-outer-wrapper {
+    border-bottom: none;
+    padding: 3px 10px 3px 0px;
+  }
+ 
+  /* Ampparit width before 16.1.2018  */
+  .outer-container {
+    max-width: 1237px;
+  }
+    
+  .item .item-content .item-content-left {
+    line-height: 10px;
+  }
+  
+  .content{
+    border: 1px solid;
+    width: 50%;
+    height: 20px;
+  }
+  
+  /* Fix this */ 
+  .news-item-source {}
+  
+  .item-content h4 a:hover {
+    text-decoration: underline;
+    background-color:#eec;
+    text-decoration-color: -moz-use-text-color;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    display: block;
+  }
+  
+  .item-category a:hover {
+    text-decoration: -moz-none;
+  }
+  
+  .time-label span {
+    display: inline-block;
+    padding: 3px 17px 3px 17px;
+    margin: 10px 0px 6px 8px;
+    min-width: 60px;
+    font-weight: bold;
+    font-size: 11px;
+    top: -12px;
+  }
+  
+  .time-label {
+    height: 4px;
+    padding-bottom: 18px;
+    padding-top: 7px;
+  }
+  
+  .news-item-bullet {
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    display: block;
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-position: -64px -15px;
+    border-radius: 3px;
+    background-image: url(http://web.archive.org/web/20171209194413im_/http://www.ampparit.com/css/default/sprite.png);
+  }
+  
+}
